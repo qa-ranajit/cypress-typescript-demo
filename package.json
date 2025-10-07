@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+      "cypress:open": "cypress open",
+      "cypress:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.6",
+    "@cypress/webpack-preprocessor": "^7.0.1",
+    "@types/chai": "^5.2.2",
+    "chai": "^6.2.0",
+    "cypress": "^15.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
